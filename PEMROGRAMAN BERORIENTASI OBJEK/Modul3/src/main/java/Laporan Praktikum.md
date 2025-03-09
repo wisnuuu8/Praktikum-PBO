@@ -29,5 +29,21 @@ Kode program di atas mendefinisikan sebuah kelas **`Mobil`** dalam bahasa Java y
 
 2. Engine
 ```Java
+public class Engine {
+    private final int horsepower;
+    private final String fuelType;
 
+    public Engine(int horsepower, String fuelType) {
+        this.horsepower = horsepower;
+        this.fuelType = fuelType;
+    }
+
+    @Override
+    public String toString() {
+        return "Engine: " + horsepower + " HP, Fuel: " + fuelType;
+    }
+}
 ```
+Penjelasan :
+
+Kelas Engine dalam bahasa Java yang merepresentasikan mesin sebuah mobil. Kelas ini memiliki dua atribut utama, yaitu horsepower yang menunjukkan tenaga mesin dalam satuan HP (Horsepower) dan fuelType yang menunjukkan jenis bahan bakar yang digunakan, seperti bensin atau diesel.
