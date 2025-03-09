@@ -46,7 +46,7 @@ public class Engine {
 ```
 Penjelasan :
 
-Kelas Engine merepresentasikan mesin sebuah mobil. Kelas ini memiliki dua atribut utama, yaitu horsepower yang menunjukkan tenaga mesin dalam satuan HP (Horsepower) dan fuelType yang menunjukkan jenis bahan bakar yang digunakan, seperti bensin atau diesel.
+Kelas **`Engine`** merepresentasikan mesin sebuah mobil. Kelas ini memiliki dua atribut utama, yaitu horsepower yang menunjukkan tenaga mesin dalam satuan HP (Horsepower) dan fuelType yang menunjukkan jenis bahan bakar yang digunakan, seperti bensin atau diesel.
 
 3. Transmission
 ```Java
@@ -152,7 +152,7 @@ public class PhoneAction {
 ```
 Penjelasan :
 
-Kelas PhoneAction sebagai titik awal eksekusi, di mana dua objek Phone dibuat. Objek phone1 memiliki merek "Nokia" dengan tahun rilis 2001, sedangkan phone2 memiliki merek "Apple" dengan tahun rilis 2005.
+Kelas **`PhoneAction`** sebagai eksekusi program, di mana dua objek Phone dibuat. Objek phone1 memiliki merek "Nokia" dengan tahun rilis 2001, sedangkan phone2 memiliki merek "Apple" dengan tahun rilis 2005.
 
 ### Output
 ```Java
@@ -180,7 +180,7 @@ public class Mobil {
 ```
 Penjelasan :
 
-Kelas Mobil merepresentasikan sebuah mobil dengan dua atribut, yaitu warna untuk menyimpan warna mobil dan tahunProduksi untuk menyimpan tahun produksinya.
+Kelas **`Mobil`** merepresentasikan sebuah mobil dengan dua atribut, yaitu warna untuk menyimpan warna mobil dan tahunProduksi untuk menyimpan tahun produksinya.
 
 4. MobilAction
 ```Java
@@ -199,7 +199,7 @@ public class MobilAction {
 ```
 Penjelasan :
 
-kelas MobilAction sebagai eksekusi program. Di dalam metode main(), sebuah objek Mobil bernama pajero dibuat, kemudian atribut warna diisi dengan "merah" dan tahunProduksi diisi dengan 2000, lalu informasi tersebut ditampilkan di konsol.
+Kelas **`MobilAction`** sebagai eksekusi program. Di dalam metode main() sebuah objek Mobil bernama pajero dibuat kemudian atribut warna diisi dengan "merah" dan tahunProduksi diisi dengan 2000, lalu informasi tersebut ditampilkan di konsol.
 
 ### Output
 ```Java
@@ -249,7 +249,7 @@ public class Mahasiswa {
 ```
 Penjelasan :
 
-kelas Mahasiswa yang berisi atribut nim, nama, dan nilai. Akses ke atribut dilakukan melalui metode getter dan setter untuk menjaga prinsip enkapsulasi.
+kelas **`Mahasiswa`** yang berisi atribut nim, nama, dan nilai. Akses ke atribut dilakukan melalui metode getter dan setter.
 
 6. Dosen
 ```Java
@@ -305,7 +305,7 @@ public class Dosen {
 ```
 Penjelasan : 
 
-Kelas Dosen yang memiliki atribut **`kodeDosen`** dan **`namaDosen`**, dengan metode getter dan setter untuk mengaksesnya. Kelas ini berinteraksi dengan kelas Mahasiswa melalui metode **`giveScore()`** untuk memberikan nilai dan **`getScore()`** untuk mengambil nilai mahasiswa. Dalam metode main(), objek Mahasiswa dibuat dan diberikan nilai oleh objek Dosen, lalu informasi mahasiswa ditampilkan di konsol. Kode ini menerapkan konsep enkapsulasi dan asosiasi dalam pemrograman berorientasi objek.
+Kelas **`Dosen yang memiliki atribut`** **`kodeDosen`** dan **`namaDosen`**, dengan metode getter dan setter untuk mengaksesnya. Kelas ini berinteraksi dengan kelas Mahasiswa melalui metode **`giveScore()`** untuk memberikan nilai dan **`getScore()`** untuk mengambil nilai mahasiswa. 
 
 ### Output
 ```Java
