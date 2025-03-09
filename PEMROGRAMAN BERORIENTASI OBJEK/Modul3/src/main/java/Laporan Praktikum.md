@@ -154,7 +154,7 @@ Penjelasan :
 
 Kelas PhoneAction sebagai titik awal eksekusi, di mana dua objek Phone dibuat. Objek phone1 memiliki merek "Nokia" dengan tahun rilis 2001, sedangkan phone2 memiliki merek "Apple" dengan tahun rilis 2005.
 
-## Output
+### Output
 ```Java
 --- exec:3.1.0:exec (default-cli) @ Modul3 ---
 Phone 2 Brand Nokia
