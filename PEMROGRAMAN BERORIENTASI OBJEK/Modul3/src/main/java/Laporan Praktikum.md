@@ -168,3 +168,85 @@ Total time:  0.817 s
 Finished at: 2025-03-09T22:25:40+07:00
 ------------------------------------------------------------------------
 ```
+
+3. Mobil
+```Java
+public class Mobil {
+    
+    String warna;
+    int tahunProduksi;
+
+}
+```
+Penjelasan :
+
+Kelas Mobil merepresentasikan sebuah mobil dengan dua atribut, yaitu warna untuk menyimpan warna mobil dan tahunProduksi untuk menyimpan tahun produksinya.
+
+4. MobilAction
+```Java
+public class MobilAction {
+    
+    public static void main(String[] args) {
+        Mobil pajero = new Mobil();
+        pajero.warna = "merah";
+        pajero.tahunProduksi = 2000;
+        
+        System.out.println("Mobil warna: " + pajero.warna);
+        System.out.println("Mobil tahun: " + pajero.tahunProduksi);
+    }
+    
+}
+```
+Penjelasan :
+
+kelas MobilAction sebagai eksekusi program. Di dalam metode main(), sebuah objek Mobil bernama pajero dibuat, kemudian atribut warna diisi dengan "merah" dan tahunProduksi diisi dengan 2000, lalu informasi tersebut ditampilkan di konsol.
+
+### Output
+```Java
+--- exec:3.1.0:exec (default-cli) @ Modul3 ---
+Mobil warna: merah
+Mobil tahun: 2000
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  0.838 s
+Finished at: 2025-03-09T22:38:22+07:00
+------------------------------------------------------------------------
+```
+
+5. Mahasiswa
+```Java
+public class Mahasiswa {
+    
+    private String nim;
+    private String nama;
+    protected int nilai;
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public void setNim(String nim) {
+        this.nim = nim;
+    }
+
+    public String getNama() {
+        return this.nama;
+    }
+
+    public String getNim() {
+        return this.nim;
+    }
+
+    public void setNilai(int nilai) {
+        this.nilai = nilai;
+    }
+
+    public int getNilai() {
+        return this.nilai;
+    }
+}
+```
+Penjelasan :
+
+kelas Mahasiswa yang berisi atribut nim, nama, dan nilai. Akses ke atribut dilakukan melalui metode getter dan setter untuk menjaga prinsip enkapsulasi.
