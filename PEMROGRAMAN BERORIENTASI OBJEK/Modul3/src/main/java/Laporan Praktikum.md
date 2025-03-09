@@ -253,4 +253,70 @@ kelas Mahasiswa yang berisi atribut nim, nama, dan nilai. Akses ke atribut dilak
 
 6. Dosen
 ```Java
+public class Dosen {
+    
+    private String kodeDosen;
+    private String namaDosen;
 
+    // Setter
+    public void setKodeDosen(String kodeDosen) {
+        this.kodeDosen = kodeDosen;
+    }
+
+    public void setNamaDosen(String namaDosen) {
+        this.namaDosen = namaDosen;
+    }
+
+    // Getter
+    public String getKodeDosen() {
+        return this.kodeDosen;
+    }
+
+    public String getNamaDosen() {
+        return this.namaDosen;
+    }
+
+    public void giveScore(Mahasiswa student, int nilai) {
+        // Ini asosiasi, method milik class Mahasiswa dipanggil di class Dosen,
+        // tapi objek Mahasiswa tidak menjadi atribut dari class Dosen
+        student.setNilai(nilai);
+    }
+
+    public int getScore(Mahasiswa student) {
+        // Ini asosiasi, method milik class Mahasiswa dipanggil di class Dosen,
+        // tapi objek Mahasiswa tidak menjadi atribut dari class Dosen
+        return student.getNilai();
+    }
+
+    public static void main(String[] args) {
+        Mahasiswa student = new Mahasiswa();
+
+        student.setNim("2311110036");
+        student.setNama("Wisnu Aji Sanjaya");
+
+        Dosen instructor = new Dosen();
+        instructor.giveScore(student, 100);
+
+        System.out.println("NIM  : " + student.getNim());
+        System.out.println("Nama : " + student.getNama());
+        System.out.println("Nilai: " + instructor.getScore(student));
+    }
+}
+```
+Penjelasan : 
+
+Kelas Dosen yang memiliki atribut kodeDosen dan namaDosen, dengan metode getter dan setter untuk mengaksesnya. Kelas ini berinteraksi dengan kelas Mahasiswa melalui metode giveScore() untuk memberikan nilai dan getScore() untuk mengambil nilai mahasiswa. Dalam metode main(), objek Mahasiswa dibuat dan diberikan nilai oleh objek Dosen, lalu informasi mahasiswa ditampilkan di konsol. Kode ini menerapkan konsep enkapsulasi dan asosiasi dalam pemrograman berorientasi objek.
+
+### Output
+```Java
+--- exec:3.1.0:exec (default-cli) @ Modul3 ---
+Nim :2311110036
+Nama :Wisnu Aji Sanjaya
+Nilai :100
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  0.948 s
+Finished at: 2025-03-09T22:49:55+07:00
+------------------------------------------------------------------------
+```
