@@ -250,3 +250,7 @@ public class Mahasiswa {
 Penjelasan :
 
 kelas Mahasiswa yang berisi atribut nim, nama, dan nilai. Akses ke atribut dilakukan melalui metode getter dan setter untuk menjaga prinsip enkapsulasi.
+
+6. Dosen
+```Java
+
