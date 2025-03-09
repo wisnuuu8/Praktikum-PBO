@@ -23,7 +23,7 @@ public class Mobil {
 
     @Override
     public String toString() {
-        return "Car: " + brand + " " + model + "\n" + transmission + "\n" + engine;
+        return "Mobil: " + brand + " " + model + "\n" + transmission + "\n" + engine;
     }
 
 }
