@@ -127,7 +127,7 @@ public class Phone {
 ```
 Penjelasan :
 
-Kelas ini memiliki dua atribut utama, yaitu brand, yang menyimpan merek ponsel, dan yearRelease, yang menyimpan tahun rilisnya. Selain itu, terdapat beberapa metode yang merepresentasikan fungsi dasar ponsel, seperti Call() untuk melakukan panggilan, SMS() untuk mengirim pesan, TurnOn() untuk menyalakan ponsel, dan TurnOff() untuk mematikanny
+Kelas ini memiliki dua atribut utama, yaitu brand, yang menyimpan merek ponsel, dan yearRelease, yang menyimpan tahun rilisnya. Selain itu, terdapat beberapa metode yang merepresentasikan fungsi dasar ponsel, seperti **`Call()`** untuk melakukan panggilan, **`SMS()`** untuk mengirim pesan, **`TurnOn()`** untuk menyalakan ponsel, dan **`TurnOff()`** untuk mematikannya
 
 2. Phone Action 
 ```Java
@@ -305,7 +305,7 @@ public class Dosen {
 ```
 Penjelasan : 
 
-Kelas Dosen yang memiliki atribut kodeDosen dan namaDosen, dengan metode getter dan setter untuk mengaksesnya. Kelas ini berinteraksi dengan kelas Mahasiswa melalui metode giveScore() untuk memberikan nilai dan getScore() untuk mengambil nilai mahasiswa. Dalam metode main(), objek Mahasiswa dibuat dan diberikan nilai oleh objek Dosen, lalu informasi mahasiswa ditampilkan di konsol. Kode ini menerapkan konsep enkapsulasi dan asosiasi dalam pemrograman berorientasi objek.
+Kelas Dosen yang memiliki atribut **`kodeDosen`** dan **`namaDosen`**, dengan metode getter dan setter untuk mengaksesnya. Kelas ini berinteraksi dengan kelas Mahasiswa melalui metode **`giveScore()`** untuk memberikan nilai dan **`getScore()`** untuk mengambil nilai mahasiswa. Dalam metode main(), objek Mahasiswa dibuat dan diberikan nilai oleh objek Dosen, lalu informasi mahasiswa ditampilkan di konsol. Kode ini menerapkan konsep enkapsulasi dan asosiasi dalam pemrograman berorientasi objek.
 
 ### Output
 ```Java
