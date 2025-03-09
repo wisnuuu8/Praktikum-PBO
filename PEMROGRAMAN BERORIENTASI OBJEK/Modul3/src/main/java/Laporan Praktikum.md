@@ -46,7 +46,7 @@ public class Engine {
 ```
 Penjelasan :
 
-Kelas **`Engine`** merepresentasikan mesin sebuah mobil. Kelas ini memiliki dua atribut utama, yaitu horsepower yang menunjukkan tenaga mesin dalam satuan HP (Horsepower) dan fuelType yang menunjukkan jenis bahan bakar yang digunakan, seperti bensin atau diesel.
+Kelas **`Engine`** merepresentasikan mesin sebuah mobil. Kelas ini memiliki dua atribut utama, yaitu "horsepower" yang menunjukkan tenaga mesin dalam satuan HP (Horsepower) dan "fuelType" yang menunjukkan jenis bahan bakar yang digunakan, seperti bensin atau diesel.
 
 3. Transmission
 ```Java
