@@ -127,6 +127,7 @@ public class Phone {
 ```
 Penjelasan :
 
+Kelas ini memiliki dua atribut utama, yaitu brand, yang menyimpan merek ponsel, dan yearRelease, yang menyimpan tahun rilisnya. Selain itu, terdapat beberapa metode yang merepresentasikan fungsi dasar ponsel, seperti Call() untuk melakukan panggilan, SMS() untuk mengirim pesan, TurnOn() untuk menyalakan ponsel, dan TurnOff() untuk mematikanny
 
 2. Phone Action 
 ```Java
@@ -140,10 +141,10 @@ public class PhoneAction {
         phone2.brand = "Apple";
         phone2.yearRelease = 2005;
         
-        System.out.println("Phone 2 Branda " + phone1.brand);
-        System.out.println("Phone 2 Branda " + phone1.yearRelease);
-        System.out.println("Phone 1 Branda " + phone2.brand);
-        System.out.println("Phone 2 Branda " + phone2.yearRelease);
+        System.out.println("Phone 2 Brand " + phone1.brand);
+        System.out.println("Phone 2 Brand " + phone1.yearRelease);
+        System.out.println("Phone 1 Brand " + phone2.brand);
+        System.out.println("Phone 2 Brand " + phone2.yearRelease);
 
     }
     
@@ -151,3 +152,19 @@ public class PhoneAction {
 ```
 Penjelasan :
 
+Kelas PhoneAction sebagai titik awal eksekusi, di mana dua objek Phone dibuat. Objek phone1 memiliki merek "Nokia" dengan tahun rilis 2001, sedangkan phone2 memiliki merek "Apple" dengan tahun rilis 2005.
+
+## Output
+```Java
+--- exec:3.1.0:exec (default-cli) @ Modul3 ---
+Phone 2 Brand Nokia
+Phone 2 Brand 2001
+Phone 1 Brand Apple
+Phone 2 Brand 2005
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  0.817 s
+Finished at: 2025-03-09T22:25:40+07:00
+------------------------------------------------------------------------
+```
