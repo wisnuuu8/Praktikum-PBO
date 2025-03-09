@@ -25,7 +25,7 @@ public class Mobil {
 ```
 Penjelasan :
 
-Kelas **`Mobil`** yang merepresentasikan sebuah mobil dengan atribut **merek (`brand`)**, **model (`model`)**, **transmisi (`transmission`)**, dan **mesin (`engine`)**. Atribut **transmission** dan **engine** merupakan objek dari kelas **`Transmission`** dan **`Engine`**, yang diasumsikan telah didefinisikan sebelumnya. Kelas ini memiliki sebuah konstruktor yang digunakan untuk menginisialisasi atribut saat objek dibuat. Selain itu, terdapat metode **`toString()`** yang mengembalikan representasi string dari objek **`Mobil`**, mencetak informasi merek dan model mobil serta detail dari transmisi dan mesin yang digunakan
+Kelas **`Mobil`** yang merepresentasikan sebuah mobil dengan atribut **merek (`brand`)**, **model (`model`)**, **transmisi (`transmission`)**, dan **mesin (`engine`)**. Atribut **transmission** dan **engine** merupakan objek dari kelas **`Transmission`** dan **`Engine`**, yang diasumsikan telah didefinisikan sebelumnya. Kelas ini memiliki sebuah konstruktor yang digunakan untuk menginisialisasi atribut saat objek dibuat. Selain itu, terdapat metode **`toString()`** yang mengembalikan representasi string dari objek **`Mobil`** mencetak informasi merek dan model mobil serta detail dari transmisi dan mesin yang digunakan
 
 2. Engine
 ```Java
@@ -46,7 +46,7 @@ public class Engine {
 ```
 Penjelasan :
 
-Kelas **`Engine`** merepresentasikan mesin sebuah mobil. Kelas ini memiliki dua atribut utama, yaitu "horsepower" yang menunjukkan tenaga mesin dalam satuan HP (Horsepower) dan "fuelType" yang menunjukkan jenis bahan bakar yang digunakan, seperti bensin atau diesel.
+Kelas **`Engine`** merepresentasikan mesin sebuah mobil. Kelas ini memiliki dua atribut utama, yaitu **"horsepower"** yang menunjukkan tenaga mesin dalam satuan HP (Horsepower) dan **"fuelType"** yang menunjukkan jenis bahan bakar yang digunakan, seperti bensin atau diesel.
 
 3. Transmission
 ```Java
@@ -67,7 +67,7 @@ public class Transmission {
 ```
 Penjelasan :
 
-Membuat kelas **`Transmission`** menggambarkan sistem transmisi mobil. Di dalamnya ada dua atribut utama: **`type`**, yang menunjukkan apakah transmisinya manual atau otomatis, dan **`gears`**, yang menunjukkan berapa banyak gigi yang dimiliki transmisi tersebut.
+Membuat kelas **`Transmission`** menggambarkan sistem transmisi mobil. Di dalamnya ada dua atribut utama: **`type`** yang menunjukkan apakah transmisinya manual atau otomatis dan **`gears`** yang menunjukkan berapa banyak gigi yang dimiliki transmisi tersebut.
 
 4. Main
 ```Java
@@ -83,7 +83,7 @@ public class Main {
 ```
 Penjelasan :
 
-Kode program ini menjalankan fungsi utama dari aplikasi. Pertama, program membuat transmisi mobil dengan tipe **"Automatic"** dan jumlah gigi **6**. Lalu, dibuat mesin dengan tenaga **250 HP** dan bahan bakar **"Gasoline"**. Setelah itu, program membuat mobil dengan merek **"Toyota"** dan model **"Supra"**, yang menggunakan transmisi dan mesin tadi. Terakhir, informasi tentang mobil ini ditampilkan di layar.
+Kode program ini menjalankan fungsi utama dari aplikasi. Pertama, program membuat transmisi mobil dengan tipe **"Automatic"** dan jumlah gigi **6**. Lalu, dibuat mesin dengan tenaga **250 HP** dan bahan bakar **"Gasoline"**. Setelah itu, program membuat mobil dengan merek **"Toyota"** dan model **"Supra"** yang menggunakan transmisi dan mesin tadi. Terakhir, informasi tentang mobil ini ditampilkan di layar.
 
 ### Output 
 ```Java
@@ -152,7 +152,7 @@ public class PhoneAction {
 ```
 Penjelasan :
 
-Kelas **`PhoneAction`** sebagai eksekusi program, di mana dua objek Phone dibuat. Objek phone1 memiliki merek "Nokia" dengan tahun rilis 2001, sedangkan phone2 memiliki merek "Apple" dengan tahun rilis 2005.
+Kelas **`PhoneAction`** sebagai eksekusi program, di mana dua objek Phone dibuat. Objek phone1 memiliki merek **"Nokia"** dengan tahun rilis 2001, sedangkan phone2 memiliki merek **"Apple"** dengan tahun rilis 2005.
 
 ### Output
 ```Java
@@ -180,7 +180,7 @@ public class Mobil {
 ```
 Penjelasan :
 
-Kelas **`Mobil`** merepresentasikan sebuah mobil dengan dua atribut, yaitu warna untuk menyimpan warna mobil dan tahunProduksi untuk menyimpan tahun produksinya.
+Kelas **`Mobil`** merepresentasikan sebuah mobil dengan dua atribut, yaitu warna untuk menyimpan **"warna mobil"** dan **"tahunProduksi"** untuk menyimpan tahun produksinya.
 
 4. MobilAction
 ```Java
