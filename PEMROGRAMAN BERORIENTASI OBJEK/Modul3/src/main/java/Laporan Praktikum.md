@@ -84,3 +84,17 @@ public class Main {
 Penjelasan :
 
 Kode program ini menjalankan fungsi utama dari aplikasi. Pertama, program membuat transmisi mobil dengan tipe **"Automatic"** dan jumlah gigi **6**. Lalu, dibuat mesin dengan tenaga **250 HP** dan bahan bakar **"Gasoline"**. Setelah itu, program membuat mobil dengan merek **"Toyota"** dan model **"Supra"**, yang menggunakan transmisi dan mesin tadi. Terakhir, informasi tentang mobil ini ditampilkan di layar.
+
+### Output 
+```Java
+--- exec:3.1.0:exec (default-cli) @ Modul3 ---
+Mobil: Toyota Supra
+Transmission: Automatic, 6 gears
+Engine: 250 HP, Fuel: Gasoline
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  1.309 s
+Finished at: 2025-03-09T22:07:20+07:00
+------------------------------------------------------------------------
+```
