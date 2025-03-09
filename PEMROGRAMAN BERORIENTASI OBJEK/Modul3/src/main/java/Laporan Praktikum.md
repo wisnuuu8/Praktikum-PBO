@@ -199,7 +199,7 @@ public class MobilAction {
 ```
 Penjelasan :
 
-Kelas **`MobilAction`** sebagai eksekusi program. Di dalam metode main() sebuah objek Mobil bernama pajero dibuat kemudian atribut warna diisi dengan "merah" dan tahunProduksi diisi dengan 2000, lalu informasi tersebut ditampilkan di konsol.
+Kelas **`MobilAction`** sebagai eksekusi program. Di dalam metode main() sebuah objek Mobil bernama pajero dibuat kemudian atribut **`warna`** diisi dengan "merah" dan **`tahunProduksi`** diisi dengan 2000, lalu informasi tersebut ditampilkan di konsol.
 
 ### Output
 ```Java
