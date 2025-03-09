@@ -71,3 +71,16 @@ Membuat kelas **`Transmission`** dalam Java untuk menggambarkan sistem transmisi
 
 4. Main
 ```Java
+public class Main {
+    public static void main(String[] args) {
+        Transmission transmission = new Transmission("Automatic", 6);
+        Engine engine = new Engine(250, "Gasoline");
+        Mobil car = new Mobil("Toyota", "Supra", transmission, engine);
+
+        System.out.println(car);
+    }
+}
+```
+Penjelasan :
+
+Kode program ini menjalankan fungsi utama dari aplikasi. Pertama, program membuat transmisi mobil dengan tipe **"Automatic"** dan jumlah gigi **6**. Lalu, dibuat mesin dengan tenaga **250 HP** dan bahan bakar **"Gasoline"**. Setelah itu, program membuat mobil dengan merek **"Toyota"** dan model **"Supra"**, yang menggunakan transmisi dan mesin tadi. Terakhir, informasi tentang mobil ini ditampilkan di layar.
