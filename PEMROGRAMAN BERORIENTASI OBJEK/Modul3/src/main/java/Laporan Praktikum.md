@@ -47,3 +47,27 @@ public class Engine {
 Penjelasan :
 
 Kelas Engine dalam bahasa Java yang merepresentasikan mesin sebuah mobil. Kelas ini memiliki dua atribut utama, yaitu horsepower yang menunjukkan tenaga mesin dalam satuan HP (Horsepower) dan fuelType yang menunjukkan jenis bahan bakar yang digunakan, seperti bensin atau diesel.
+
+3. Transmission
+```Java
+public class Transmission {
+    private final String type;
+    private final int gears;
+
+    public Transmission(String type, int gears) {
+        this.type = type;
+        this.gears = gears;
+    }
+
+    @Override
+    public String toString() {
+        return "Transmission: " + type + ", " + gears + " gears";
+    }
+}
+```
+Penjelasan :
+
+Membuat kelas **`Transmission`** dalam Java untuk menggambarkan sistem transmisi mobil. Di dalamnya ada dua atribut utama: **`type`**, yang menunjukkan apakah transmisinya manual atau otomatis, dan **`gears`**, yang menunjukkan berapa banyak gigi yang dimiliki transmisi tersebut.
+
+4. Main
+```Java
