@@ -1,4 +1,4 @@
-## Repository praktikum PBO
+## Repository Praktikum Pemrograman Berorientasi Objek
 
 <pre>
   Nama = WISNU AJI SANJAYA
