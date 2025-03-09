@@ -103,3 +103,28 @@ Finished at: 2025-03-09T22:07:20+07:00
 
 1. Phone
 ```Java
+public class Phone {
+    String brand;
+    int yearRelease;
+    
+    void Call(){
+        System.out.println("Calling");
+    }
+
+    void SMS(){
+        System.out.println("Sending SMS");
+    }
+
+    void TurnOn(){
+        System.out.println("Turning on " + brand);
+    }
+
+    void TurnOff(){
+        System.out.println("Turning off " + brand);
+    }
+
+}
+```
+Penjelasan :
+2. Phone Action 
+```Java
