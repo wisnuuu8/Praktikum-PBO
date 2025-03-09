@@ -305,7 +305,7 @@ public class Dosen {
 ```
 Penjelasan : 
 
-Kelas **`Dosen yang memiliki atribut`** **`kodeDosen`** dan **`namaDosen`**, dengan metode getter dan setter untuk mengaksesnya. Kelas ini berinteraksi dengan kelas Mahasiswa melalui metode **`giveScore()`** untuk memberikan nilai dan **`getScore()`** untuk mengambil nilai mahasiswa. 
+Kelas **`Dosen`** yang memiliki atribut **`kodeDosen`** dan **`namaDosen`** dengan metode getter dan setter untuk mengaksesnya. Kelas ini berinteraksi dengan kelas Mahasiswa melalui metode **`giveScore()`** untuk memberikan nilai dan **`getScore()`** untuk mengambil nilai mahasiswa. 
 
 ### Output
 ```Java
