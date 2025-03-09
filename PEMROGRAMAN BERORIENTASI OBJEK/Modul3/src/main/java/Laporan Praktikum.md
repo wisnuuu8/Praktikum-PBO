@@ -1,4 +1,4 @@
-##  Penjelasan kode program UNGUIDED
+# UNGUIDED
 
 
 1. Mobil
