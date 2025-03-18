@@ -4,10 +4,10 @@
 1. Mobil
 ```java
 public class Mobil {
-    private final String brand;
-    private final String model;
-    private final Transmission transmission;
-    private final Engine engine;
+    private String brand;
+    private String model;
+    private Transmission transmission;
+    private Engine engine;
 
     public Mobil(String brand, String model, Transmission transmission, Engine engine) {
         this.brand = brand;
@@ -30,8 +30,8 @@ Kelas **`Mobil`** yang merepresentasikan sebuah mobil dengan atribut **merek (`b
 2. Engine
 ```Java
 public class Engine {
-    private final int horsepower;
-    private final String fuelType;
+    private int horsepower;
+    private String fuelType;
 
     public Engine(int horsepower, String fuelType) {
         this.horsepower = horsepower;
@@ -51,8 +51,8 @@ Kelas **`Engine`** merepresentasikan mesin sebuah mobil. Kelas ini memiliki dua 
 3. Transmission
 ```Java
 public class Transmission {
-    private final String type;
-    private final int gears;
+    private String type;
+    private int gears;
 
     public Transmission(String type, int gears) {
         this.type = type;
