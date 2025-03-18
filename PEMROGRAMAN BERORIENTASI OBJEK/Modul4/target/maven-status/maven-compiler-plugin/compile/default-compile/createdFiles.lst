@@ -1,0 +1,12 @@
+Hewan\Animal.class
+Hewan\Cat.class
+hargabuku\KelasHarga.class
+Unguided\entities\Diagnosis.class
+Unguided\entities\Doctor.class
+driver\TestPackage.class
+Unguided\entities\Appointment.class
+Guided\LibraryBook.class
+Unguided\entities\HospitalManagementSystem.class
+hargatoken\KelasToken.class
+Guided\DriverLB.class
+Unguided\entities\Patient.class
