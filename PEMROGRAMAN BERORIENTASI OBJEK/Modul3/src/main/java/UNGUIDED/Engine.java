@@ -9,8 +9,8 @@ package UNGUIDED;
  * @author tuf
  */
 public class Engine {
-    private final int horsepower;
-    private final String fuelType;
+    private int horsepower;
+    private String fuelType;
 
     public Engine(int horsepower, String fuelType) {
         this.horsepower = horsepower;
