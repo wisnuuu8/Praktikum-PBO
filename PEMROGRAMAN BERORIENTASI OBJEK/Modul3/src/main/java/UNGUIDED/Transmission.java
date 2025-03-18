@@ -9,8 +9,8 @@ package UNGUIDED;
  * @author tuf
  */
 public class Transmission {
-    private final String type;
-    private final int gears;
+    private String type;
+    private int gears;
 
     public Transmission(String type, int gears) {
         this.type = type;
