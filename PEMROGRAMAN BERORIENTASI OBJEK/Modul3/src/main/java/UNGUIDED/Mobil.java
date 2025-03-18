@@ -9,10 +9,10 @@ package UNGUIDED;
  * @author tuf
  */
 public class Mobil {
-    private final String brand;
-    private final String model;
-    private final Transmission transmission;
-    private final Engine engine;
+    private String brand;
+    private String model;
+    private Transmission transmission;
+    private Engine engine;
 
     public Mobil(String brand, String model, Transmission transmission, Engine engine) {
         this.brand = brand;
